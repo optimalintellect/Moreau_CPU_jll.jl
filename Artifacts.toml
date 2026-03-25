@@ -1,0 +1,13 @@
+[[moreau_cpu]]
+arch = "x86_64"
+git-tree-sha1 = "ecb8a579a1e67990ff1d8efb1b094ee15eba2074"
+wheel_filename = "moreau_clib_cpu-0.2.0-py3-none-manylinux_2_28_x86_64.whl"
+libc = "glibc"
+wheel_sha256 = "650f4a17cecf027066e826bbd9e6dc8c092b036979107436f2d67698760f2d64"
+os = "linux"
+[[moreau_cpu]]
+arch = "aarch64"
+git-tree-sha1 = "f1e23932cf36468be335ca6d8bba9bd83867a617"
+wheel_filename = "moreau_clib_cpu-0.2.0-py3-none-macosx_11_0_arm64.whl"
+wheel_sha256 = "d1ca5e7752cc469d615519223b90a824aaa80aa0b150bcc6f21b2d5d763d2ed2"
+os = "macos"
