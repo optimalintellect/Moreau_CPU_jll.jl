@@ -1,6 +1,7 @@
 module Moreau_CPU_jll
 
 using Artifacts
+import Pkg.Artifacts: create_artifact, remove_artifact
 using Downloads
 using Libdl
 using SHA
