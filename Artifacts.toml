@@ -1,17 +1,17 @@
 [[moreau_cpu]]
 arch = "x86_64"
-git-tree-sha1 = "484e112a4ae6d7d91fa395665eed33ff953eeb92"
+git-tree-sha1 = "60d8cb19f636ea530ff06bc4382ef874b93b5f51"
 libc = "glibc"
 os = "linux"
 
     [moreau_cpu.wheel]
-    sha256 = "a63a521add161e5b9d4119e1cd4aed62173a76a3f3ea0a1f00e347807ccf9a5c"
-    filename = "moreau_clib_cpu-0.2.1-py3-none-manylinux_2_28_x86_64.whl"
+    sha256 = "0ec5b596029294e5c58bdae59abc9b6c4e8e6b7ed88ca4a7e9a8f72c96f83fc5"
+    filename = "moreau_clib_cpu-0.3.0-py3-none-manylinux_2_28_x86_64.whl"
 [[moreau_cpu]]
 arch = "aarch64"
-git-tree-sha1 = "1dedb0fde2460b0c5c6919f4e126d1044778dbd1"
+git-tree-sha1 = "26096533bd015def25535c205e3a8c623d13dd39"
 os = "macos"
 
     [moreau_cpu.wheel]
-    sha256 = "d81ebb7db0e8335fc499d7c1d4650d8ba250fa6e370567cd77a1cbdb90615e4e"
-    filename = "moreau_clib_cpu-0.2.1-py3-none-macosx_11_0_arm64.whl"
+    sha256 = "255539cfebbf519f5c4e39bffc9719c081fa4c0a82faf01428110f70a5e49842"
+    filename = "moreau_clib_cpu-0.3.0-py3-none-macosx_11_0_arm64.whl"
