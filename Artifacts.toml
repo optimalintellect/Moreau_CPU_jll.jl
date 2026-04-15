@@ -1,17 +1,17 @@
 [[moreau_cpu]]
 arch = "x86_64"
-git-tree-sha1 = "60d8cb19f636ea530ff06bc4382ef874b93b5f51"
+git-tree-sha1 = "7fff4d5b1cb8ca4fc4cfd183b732f5865c9bb83c"
 libc = "glibc"
 os = "linux"
 
-    [moreau_cpu.wheel]
-    sha256 = "0ec5b596029294e5c58bdae59abc9b6c4e8e6b7ed88ca4a7e9a8f72c96f83fc5"
-    filename = "moreau_clib_cpu-0.3.0-py3-none-manylinux_2_28_x86_64.whl"
+    [[moreau_cpu.download]]
+    sha256 = "8f4d319c7fb5726742ff693bc22a8589038186af546c72cacd5d76a64a6ac271"
+    url = "https://github.com/optimalintellect/Moreau_CPU_jll.jl/releases/download/v0.3.1/moreau-cpu-linux-x86_64.tar.gz"
 [[moreau_cpu]]
 arch = "aarch64"
-git-tree-sha1 = "26096533bd015def25535c205e3a8c623d13dd39"
+git-tree-sha1 = "4a6662b6624ecafb4b47585bc5402aead48e0110"
 os = "macos"
 
-    [moreau_cpu.wheel]
-    sha256 = "255539cfebbf519f5c4e39bffc9719c081fa4c0a82faf01428110f70a5e49842"
-    filename = "moreau_clib_cpu-0.3.0-py3-none-macosx_11_0_arm64.whl"
+    [[moreau_cpu.download]]
+    sha256 = "339f574bd2deb9518d54336c937395d208b86a5de9d2f8cf8cfdb24104fd2c66"
+    url = "https://github.com/optimalintellect/Moreau_CPU_jll.jl/releases/download/v0.3.1/moreau-cpu-macos-arm64.tar.gz"
